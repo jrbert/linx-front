@@ -143,3 +143,25 @@ input[type=text], input[type=email], input[type=number]{
     font-size: smaller;
     text-align: center;
 }
+.news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 3.5vh;
+}
+.line{
+    width: 75vh;
+    border-top: 1px solid #888888;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.lineDirection{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
