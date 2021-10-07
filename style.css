@@ -21,7 +21,7 @@ body{
     font-size: large;
     padding-bottom: 20vh;
 }
-.products{
+.selectProducts{
     padding-top: 3vh;
 }
 .forYou{
@@ -94,4 +94,52 @@ input[type=text], input[type=email], input[type=number]{
 }
 .styleBars{
     margin-bottom: 5vh;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+}
+.shareNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+}
+.secondForm{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+}
+.secSendButton{
+    width: 29vw;
+    height: 5vh;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;   
+}
+.positionButton{
+    display: flex;
+    justify-content: center;
+}
+.endPage{
+    background-image: url(./imgs/bg2.png);
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+.footerText{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-top: 15vh;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    text-align: center;
 }
