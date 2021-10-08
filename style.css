@@ -119,7 +119,7 @@ input[type=text], input[type=email], input[type=number]{
     font-family: 'Roboto', sans-serif;
 }
 .secSendButton{
-    width: 29vw;
+    width: 20vw;
     height: 5vh;
     color: #888888;
     font-family: 'Roboto', sans-serif;   
@@ -164,4 +164,45 @@ input[type=text], input[type=email], input[type=number]{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+.specialSelection{
+    display: flex;
+    flex-direction: column;
+}
+#productContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    
+}
+li{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+    word-break: break-all;
+
+}
+.moreProducts{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+#price{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+#buttonMoreProducts{
+    width: 20vw;
+    height: 5vh;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
 }

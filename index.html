@@ -7,7 +7,7 @@
     <title>Desafio Linx</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
-<body>
+<body onload="getProducts()">
     <div class = "firstContent">
         <p class ="selectProducts">uma seleção de produtos</p>
         <h1 class ="forYou">especial para você</h1>
@@ -56,12 +56,14 @@
     </div>
     <div class ="products">
         <div class="line"></div><h3>Sua seleção especial</h3><div class="line"></div>
-        <div class ="pullApi">
-
-            <!-- Aqui dentro vai a API -->
-
-
-        </div>
+    </div>
+            <!-- Here starts the API -->          
+            <div class="content">
+                <ul id="productContent"></ul>
+            </div>
+            <div class ="moreProducts">
+                <button id="buttonMoreProducts" type="button" onclick="getProducts()"> Ainda mais produtos aqui! </button>
+            </div>
     </div>
     <div class ="preFooter">
             <div class="news">
@@ -90,5 +92,7 @@
                 2019
             </footer>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
