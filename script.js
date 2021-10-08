@@ -12,7 +12,7 @@
     productHtml += `<img src="${product.image}" />`;
     productHtml += `<h2>${product.name}</h2>`;
     productHtml += `<p id ="description">${product.description}</p>`
-    
+
     if (product.oldPrice)
       productHtml += `<p">De: R$ ${formatPrice(product.oldPrice)}</p>`;
 
@@ -22,7 +22,8 @@
       productHtml += `<p>Parcelamento: ${
         product.installments.count
       }x de R$ ${formatPrice(product.installments.value)}</p>`;
-;
+      
+    productHtml += `<button id="buy">Comprar</button>` 
     productHtml += `</li>`;
     
     $("#productContent").append(productHtml)
