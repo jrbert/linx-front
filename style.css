@@ -209,12 +209,22 @@ li{
     color: #888888;
     font-family: 'Roboto', sans-serif;
 }
-@media (max-width: 600px) {
-
-
+@media (max-width: 979px) {
+    html{
+        width:100%;
+        overflow-x:hidden;
+    }
+    body{
+        width: 100%;
+        overflow-x:hidden;
+        background-image: url(./imgs/bg1.png);
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
     .theButtons{
-        width: 60%;
+        width: 80%;
         height: 20vh;
         display: flex;
         flex-wrap: wrap;
@@ -236,39 +246,64 @@ li{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-left: 4vh;
+        margin-left: -6vh;
+    }
+    .midBody{
+        display: flex;
+        justify-content: center;
+        margin-left: -15vh;
+        text-align: left;
+        flex-direction: column;
+        color: #888888;
+        width: 85%;
+        font-family: 'Roboto', sans-serif;
     }
     .forms{
         display: flex;
         justify-content: center;
         text-align: left;
-        padding-left: 25vh;
+        padding-left: 15vh;
         flex-direction: column;
-        color: #888888;
         width: 100%;
-        font-family: 'Roboto', sans-serif;
+    }
+    .sendButton{
+        width: 63vw;
+    }
+    input[type=text], input[type=email], input[type=number]{
+        padding: 1vh;
+        width: 58vw;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: -7vh;
     }
     li{
-        display: flex;
-        flex-direction: column;
-        width: 45%;
-        text-align: left;
-        padding-left: 1%;
+        width: 40%;
         padding-top: 2vh;
         padding-bottom: 2vh;
         padding-left: 3vh;
-        word-break: break-all;
     }
     #buttonMoreProducts{
         width: 30vw;
         height: 10vh;
-        color: #888888;
-        font-family: 'Roboto', sans-serif;
     }
     #buy{
-        width: 18vw;
+        width: 30vw;
+        height: 7vh;
+    }
+    .secondForm{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding-left: 15vh;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -5vh;
+    }
+    .secSendButton{
+        width: 58vw;
         height: 5vh;
-        color: #888888;
-        font-family: 'Roboto', sans-serif;
     }
 }
