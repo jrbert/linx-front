@@ -17,6 +17,10 @@ retirados de uma API fornecida pela Linx.
 - CSS
 - JavaScript
 
+## Biblioteca usada no desenvolvimento
+Escolhi usar JQuery pela facilidade de manipulação de objeto
+e pra ganhar tempo para poder entregar o projeto dentro do prazo.
+
 # Autor
 
 Junior Bertão
